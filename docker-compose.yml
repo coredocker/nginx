@@ -13,10 +13,7 @@ services:
           - PHP_56_PORT=9056
           - PHP_70_PORT=9070
           - PHP_71_PORT=9071
-          PHP_SERVER:
-            - 127.0.0.1
-            - 127.0.0.2
-            - 127.0.0.3
+          - PHP_SERVER=127.0.0.1
       volumes:
         - ./logs/nginx/:/var/log/nginx
         - ./config/sites/:/etc/nginx/sites-available
