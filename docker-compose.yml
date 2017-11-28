@@ -17,7 +17,7 @@ services:
       volumes:
         - ./logs/nginx/:/var/log/nginx
         - ./config/sites/:/etc/nginx/sites-available
-        - ./www:/var/www
+        - ./wwwroot:/var/www
       ports:
         - "80:80"
         - "443:443"
