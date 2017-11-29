@@ -2,8 +2,6 @@ FROM nginx:alpine
 
 MAINTAINER Mahmoud Zalt <mahmoud@zalt.me>
 
-ADD ./config/nginx.conf /etc/nginx/
-
 ARG PHP_52_PORT=9052
 ARG PHP_53_PORT=9053
 ARG PHP_54_PORT=9054
